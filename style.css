@@ -12,13 +12,37 @@ body {
 }
 
 #welcome .box {
-  width: 1450px;
-  height: 580px;
+  width: 1536px;
+  height: 695px;
   background-image: url(Assets/headerbg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  top: 100px;
-  left: 60px;
+  top: 0px;
+  left: 0px;
+}
+#welcome .textbox h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  line-height: 1.5;
+}
+#welcome .textbox h2 {
+  font-weight: 700;
+  font-size: 80px;
+  color: white;
+  line-height: 1.5;
+}
+#welcome .btn {
+  width: 147px;
+  height: 50px;
+  background-color: rgba(210, 182, 24, 0.9176470588);
+  color: white;
+  position: absolute;
+  top: 450px;
+  left: 690px;
+}
+#welcome .btn h3 {
+  margin: 6px;
 }/*# sourceMappingURL=style.css.map */

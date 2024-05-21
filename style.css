@@ -18,9 +18,9 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
+  position: relative;
   top: 0px;
-  left: 0px;
+  left: -120px;
 }
 #welcome .textbox h1 {
   font-weight: 700;
@@ -45,4 +45,33 @@ body {
 }
 #welcome .btn h3 {
   margin: 6px;
+}
+
+#services {
+  padding: 40px 0;
+}
+#services .box {
+  width: 410px;
+  height: 300px;
+}
+#services .box h1 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 2;
+}
+#services .box h2 {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 15px 0;
+}
+#services .box p {
+  font-size: 17px;
+  line-height: 1.4;
+}
+#services .btn {
+  width: 100px;
+  height: 100px;
+  background-color: #eeae19;
+  color: white;
+  border-radius: 50px;
 }/*# sourceMappingURL=style.css.map */

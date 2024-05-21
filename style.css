@@ -52,21 +52,26 @@ body {
 }
 #services .box {
   width: 410px;
-  height: 300px;
+  height: 250px;
 }
 #services .box h1 {
   font-weight: 700;
   font-size: 42px;
   line-height: 2;
 }
-#services .box h2 {
+#services .box .minibox {
+  display: flex;
+  justify-content: center;
+}
+#services .box .minibox h2 {
   font-weight: 700;
   font-size: 30px;
   margin: 15px 0;
 }
-#services .box p {
+#services .box .minibox p {
   font-size: 17px;
   line-height: 1.4;
+  padding: 0 0 90px 0;
 }
 #services .btn {
   width: 100px;
@@ -74,4 +79,42 @@ body {
   background-color: #eeae19;
   color: white;
   border-radius: 50px;
+  padding: 0 0 90px 0;
+  position: absolute;
+  top: 890px;
+  left: 280px;
+}
+#services .btn .icon i {
+  font-size: 51px;
+  margin: 20px;
+}
+#services .btn1 {
+  width: 100px;
+  height: 100px;
+  background-color: #eeae19;
+  color: white;
+  border-radius: 50px;
+  padding: 0 0 90px 0;
+  position: absolute;
+  top: 890px;
+  left: 710px;
+}
+#services .btn1 .icon i {
+  font-size: 51px;
+  margin: 20px;
+}
+#services .btn2 {
+  width: 100px;
+  height: 100px;
+  background-color: #eeae19;
+  color: white;
+  border-radius: 50px;
+  padding: 0 0 90px 0;
+  position: absolute;
+  top: 890px;
+  left: 1155px;
+}
+#services .btn2 .icon i {
+  font-size: 51px;
+  margin: 20px;
 }/*# sourceMappingURL=style.css.map */

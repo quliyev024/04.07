@@ -117,4 +117,22 @@ body {
 #services .btn2 .icon i {
   font-size: 51px;
   margin: 20px;
+}
+
+#portfolio .box h1 {
+  font-weight: 700;
+  font-size: 50px;
+  margin: 30px 0 15px 0;
+}
+#portfolio .box h3 {
+  margin: 15px 0 50px 0;
+}
+#portfolio .box h2 {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 20px 0 0 0;
+}
+#portfolio .box h4 {
+  margin: 5px 0 20px 0;
+  font-size: 15px;
 }/*# sourceMappingURL=style.css.map */
